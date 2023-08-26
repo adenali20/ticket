@@ -15,6 +15,8 @@ import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
+
+
 @RestController
 @RequestMapping("/flight")
 public class FlightController {
@@ -74,8 +76,5 @@ public class FlightController {
        return flightService.findFlightByDepartureAirportAndArrivalAirportAndDepartureDate(airport,airport2,localDate);
 
     }
-
-
-
 
 }

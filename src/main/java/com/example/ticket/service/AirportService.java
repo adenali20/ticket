@@ -13,6 +13,7 @@ public class AirportService implements IAirport {
     @Autowired
     AirportRepository airportRepository;
 
+    @Override
     public Airport save(Airport newAirport){
         Airport airport=findAirportByCode(newAirport.getCode());
 
@@ -38,6 +39,7 @@ public class AirportService implements IAirport {
     }
 
     @Override
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deleteAirportByCode(String code) {
          airportRepository.deleteAirportByCode(code);
          return;
