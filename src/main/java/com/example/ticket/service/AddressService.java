@@ -2,6 +2,7 @@ package com.example.ticket.service;
 
 import com.example.ticket.domain.Address;
 import com.example.ticket.domain.Airport;
+import com.example.ticket.domain.DecomObj;
 import com.example.ticket.repository.AddressRepository;
 import com.example.ticket.repository.AirportRepository;
 import com.example.ticket.service.interfaces.IAddress;
@@ -17,6 +18,7 @@ public class AddressService implements IAddress {
     public Address save(Address newAddress){
         Address address=findAddressByCityAndStreet(newAddress.getCity(),newAddress.getStreet());
 
+        DecomObj decomObj;
         if(address==null){
            address= addressRepository.save(newAddress);
 
