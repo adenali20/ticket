@@ -56,6 +56,11 @@ public class UserController {
         return user1;
     }
 
+    @GetMapping("/admin/hello")
+    public String sayHi(){
+        return "hello guys";
+    }
+
     @RequestMapping(value = "/authenticate", method = RequestMethod.POST)
     public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
 
