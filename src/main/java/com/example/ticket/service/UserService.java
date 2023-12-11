@@ -22,6 +22,10 @@ public class UserService implements IUser {
         return userRepository.save(entity);
     }
 
+    public User testApi(User entity) {
+        return userRepository.save(entity);
+    }
+
     @Override
     public User findUserByUsername(String username) {
         return userRepository.findUserByUsername(username);

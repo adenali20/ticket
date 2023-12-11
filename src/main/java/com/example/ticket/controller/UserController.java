@@ -58,7 +58,7 @@ public class UserController {
 
     @PostMapping("/admin/apiTest")
     public User testApi(@Valid @RequestBody User user){
-        User user1=userService.save(user);
+        User user1=userService.testApi(user);
         return user1;
     }
 
