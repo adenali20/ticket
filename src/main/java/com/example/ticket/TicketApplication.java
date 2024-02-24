@@ -18,6 +18,7 @@ public class TicketApplication {
 		int z=0;
 		int a=11;
 
+		int b=-1;
 	}
 
 }
