@@ -12,6 +12,7 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
+//testing revert
 		int age=100;
 		String name="aden";
 
@@ -21,7 +22,6 @@ public class TicketApplication {
 		int a=11;
 
 		int b=-1;
-		int vn=1;
 	}
 
 }
