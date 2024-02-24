@@ -13,8 +13,8 @@ public class TicketApplication {
 	}
 	public static void test(){
 		int y=1;
-		int x=-2;
-		String shipment="shipments";
+		int x=-33;
+		String shipment="shipments ";
 		int z=0;
 		int a=10;
 
