@@ -12,12 +12,12 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
-		int y=1;
-		int x=-22;
-		String shipment="shipments";
-		int z=0;
-		int a=10;
 
+		String shipment="shipments ";
+		int z=0;
+		int a=11;
+
+		int b=-1;
 	}
 
 }
