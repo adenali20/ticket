@@ -12,6 +12,7 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
+		int z=0;
 		int x=1;
 	}
 
