@@ -12,7 +12,7 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
-		int x=0;
+		int x=1;
 	}
 
 }
