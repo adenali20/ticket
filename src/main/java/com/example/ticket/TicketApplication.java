@@ -13,7 +13,7 @@ public class TicketApplication {
 	}
 	public static void test(){
 		int y=1;
-		int x=-2 ;
+		int x=-2;
 		int z=0;
 		int a=10;
 	}
