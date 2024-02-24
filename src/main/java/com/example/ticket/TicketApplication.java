@@ -11,5 +11,8 @@ public class TicketApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TicketApplication.class, args);
 	}
+	public static void test(){
+		int x=0;
+	}
 
 }
