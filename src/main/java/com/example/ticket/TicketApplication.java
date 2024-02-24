@@ -13,8 +13,7 @@ public class TicketApplication {
 	}
 	public static void test(){
 
-		int age=100;
-		String name="aden";
+		int module_version=1;
 		String shipment="shipments ";
 		int z=0;
 		int a=11;
