@@ -12,7 +12,6 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
-		int y=1;
 		int x=-33;
 		String shipment="shipments ";
 		int z=0;
