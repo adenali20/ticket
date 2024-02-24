@@ -12,6 +12,9 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
+//testing revert
+		int age=100;
+		String name="aden";
 
 		int module_version=1;
 		String shipment="shipments ";
