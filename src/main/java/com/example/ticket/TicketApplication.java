@@ -12,6 +12,7 @@ public class TicketApplication {
 		SpringApplication.run(TicketApplication.class, args);
 	}
 	public static void test(){
+		int a=12;
 		int age=100;
 		String name="aden";
 
@@ -20,6 +21,7 @@ public class TicketApplication {
 		int z=0;
 		int a=11;
 //git sa
+		//git add
 		int b=-1;
 		int vn=1;
 	}
